@@ -1,3 +1,4 @@
+// Konami code
 var i = 0;
 document.addEventListener('keydown', function(event) {
     if (event.keyCode == 38) {
@@ -68,7 +69,7 @@ function konami10(){
 	document.addEventListener('keydown', function(event) {
     if (event.keyCode == 65 && i == 0) {
 		i = 1;
-		alert('OUI');
-    }
-}, true);
+		window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ','RICKROLL','width=600,height=400')
+		}
+	}, true);
 }
